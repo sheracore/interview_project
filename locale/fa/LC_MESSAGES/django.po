@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-09 19:03+0330\n"
+"PO-Revision-Date: 2021-12-09 19:01+0326\n"
+"Last-Translator: b'Anonymous User <None>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.6\n"
+
+#: agents/models.py:14
+msgid "Eset"
+msgstr ""
+
+#: agents/models.py:19
+msgid "Ikarus"
+msgstr ""
+
+#: agents/models.py:24
+msgid "Escan"
+msgstr ""
+
+#: agents/models.py:29
+msgid "Comodo"
+msgstr ""
+
+#: agents/models.py:34
+msgid "Clamav"
+msgstr ""
+
+#: agents/models.py:39
+msgid "Symantec"
+msgstr ""
+
+#: agents/models.py:44
+msgid "Kaspersky"
+msgstr ""
+
+#: agents/models.py:49
+msgid "Avast"
+msgstr ""
+
+#: agents/models.py:54
+msgid "Padvish"
+msgstr ""
+
+#: agents/models.py:59
+msgid "Max"
+msgstr ""
+
+#: agents/models.py:64
+msgid "Winessentials"
+msgstr ""
+
+#: agents/models.py:69
+msgid "BitDefender"
+msgstr ""
+
+#: agents/models.py:74
+msgid "Emsisoft"
+msgstr ""
+
+#: agents/models.py:79
+msgid "Avira"
+msgstr ""
+
+#: agents/models.py:84
+msgid "Drweb"
+msgstr ""
+
+#: agents/models.py:89
+msgid "Fprot"
+msgstr ""
+
+#: agents/models.py:94
+msgid "Trendmicro"
+msgstr ""
+
+#: agents/models.py:100
+msgid "Vipre"
+msgstr ""
+
+#: agents/models.py:105
+msgid "Bullguard"
+msgstr ""
+
+#: agents/models.py:110
+msgid "Sophos"
+msgstr ""
+
+#: agents/models.py:115
+msgid "Twister"
+msgstr ""
+
+#: agents/models.py:120
+msgid "Xvirus"
+msgstr ""
+
+#: agents/models.py:125
+msgid "TrustPort"
+msgstr ""
+
+#: agents/models.py:130
+msgid "Mcafee"
+msgstr ""
+
+#: agents/models.py:135
+msgid "Zillya"
+msgstr ""
+
+#: agents/models.py:140
+msgid "NanoAV"
+msgstr ""
+
+#: agents/models.py:149
+msgid "Agent"
+msgstr "اسکنر"
+
+#: agents/models.py:150
+msgid "Agents"
+msgstr "اسکنرها"
+
+#: agents/models.py:182
+msgid "Update File"
+msgstr "فایل آپدیت"
+
+#: agents/models.py:183
+msgid "Update Files"
+msgstr "فایل های آپدیت"
+
+#: core/models.py:164
+msgid "Mime Type Category"
+msgstr "طبقه‌بندی نوع فایل"
+
+#: core/models.py:165
+msgid "Mime Type Categories"
+msgstr "طبقه‌بندی‌های نوع فایل"
+
+#: core/models.py:175
+msgid "Mime Type"
+msgstr "نوع فایل"
+
+#: core/models.py:176
+msgid "Mime Types"
+msgstr "انواع فایل"
+
+#: core/models.py:701
+msgid "Missing printer IP address and PORT"
+msgstr "آدرس و پورت چاپگر مشخص نیست"
+
+#: core/models.py:702
+msgid "Missing printer IP address and PORT."
+msgstr "آدرس و پورت چاپگر مشخص نیست"
+
+#: core/models.py:730
+msgid "Missing FTP host or port or username or password"
+msgstr "آدرس و پورت یا مشخصات کاربری FTP مشخص نیست"
+
+#: core/models.py:750
+msgid "Missing SFTP host or port or username or password"
+msgstr "آدرس و پورت یا مشخصات کاربری FTP مشخص نیست"
+
+#: core/models.py:1047
+msgid "Api"
+msgstr ""
+
+#: core/models.py:1048
+msgid "Apis"
+msgstr "API ها"
+
+#: core/serializers.py:34
+msgid "Invalid or expired captcha key"
+msgstr "کلید کپچا نامعتبر یا منقضی شده است"
+
+#: core/serializers.py:38
+msgid "Invalid captcha value"
+msgstr "مقدار کپچا نامعتبر است"
+
+#: core/serializers.py:342
+msgid "Incorrect pin code"
+msgstr "پین‌کد اشتباه است"
+
+#: core/views.py:146
+msgid "Path not found"
+msgstr "آدرس پیدا نشد"
+
+#: core/views.py:149
+msgid "No such directory"
+msgstr "پوشه پیدا نشد"
+
+#: core/views.py:214
+msgid "No default interface found"
+msgstr "اینترفیس پیش‌فرض پیدا نشد."
+
+#: kiosks/models.py:16
+msgid "Kiosk"
+msgstr "کیوسک"
+
+#: kiosks/models.py:17
+msgid "Kiosks"
+msgstr "کیوسک‌ها"
+
+#: kiosks/models.py:38
+msgid "Scan Log"
+msgstr "تاریخچه اسکن"
+
+#: kiosks/models.py:39
+msgid "Scan Logs"
+msgstr "تاریخچه های اسکن"
+
+#: proj/settings.py:215
+msgid "English"
+msgstr ""
+
+#: proj/settings.py:216
+msgid "Persian"
+msgstr ""
+
+#: sale/models.py:18
+msgid "Period"
+msgstr ""
+
+#: sale/models.py:19
+msgid "Periods"
+msgstr ""
+
+#: sale/models.py:37
+msgid "Plan"
+msgstr ""
+
+#: sale/models.py:38
+msgid "Plans"
+msgstr ""
+
+#: sale/models.py:73
+msgid "Plan Copy"
+msgstr ""
+
+#: sale/models.py:74
+msgid "Plan Copies"
+msgstr ""
+
+#: scans/models/file.py:200
+msgid "File"
+msgstr "فایل"
+
+#: scans/models/file.py:201
+msgid "Files"
+msgstr "فایل‌ها"
+
+#: scans/models/scan.py:61
+msgid "Scan"
+msgstr "اسکن"
+
+#: scans/models/scan.py:62
+msgid "Scans"
+msgstr "اسکن‌ها"
+
+#: scans/models/scan.py:134
+msgid "Creating"
+msgstr ""
+
+#: scans/models/scan.py:135
+msgid "Created"
+msgstr ""
+
+#: scans/models/scan.py:136
+msgid "Failed"
+msgstr ""
+
+#: scans/models/scan.py:146
+msgid "Scan Report"
+msgstr "گزارش اسکن"
+
+#: scans/models/scan.py:147
+msgid "Scan Reports"
+msgstr "گزارشات اسکن‌"
+
+#: scans/models/session.py:49
+msgid "Waiting to start reading files..."
+msgstr "در انتظار خواندن فایل‌ها ..."
+
+#: scans/models/session.py:51
+msgid "Reading files..."
+msgstr "در حال خواندن فایل‌ها ..."
+
+#: scans/models/session.py:53
+msgid "Reading files finished"
+msgstr "خواندن فایل‌ها به اتمام رسید"
+
+#: scans/models/session.py:56
+msgid "Waiting to start scanning..."
+msgstr "در انتظار شروع اسکن ..."
+
+#: scans/models/session.py:58
+msgid "Scanning files..."
+msgstr "در حال اسکن ..."
+
+#: scans/models/session.py:60
+msgid "Scanning files finished"
+msgstr "اسکن فایل‌ها به اتمام رسید"
+
+#: scans/serializers.py:115
+#, python-brace-format
+msgid "The uploaded file size exceeded {size}."
+msgstr "فایل آپلود شده از {size} بیشتر است"
+
+#: scans/serializers.py:121 scans/tasks.py:225
+#, python-brace-format
+msgid "The Uploaded file mimetype {mimetype} is not valid."
+msgstr "نوع فایل آپلود شده {mimetype} غیرمجاز است"
+
+#: scans/tasks.py:218
+#, python-brace-format
+msgid "The file size exceeded {size}."
+msgstr "حجم فایل از {size} بیشتر است"
+
+#: scans/tasks.py:670
+msgid "Printing scan results receipt"
+msgstr " حال چاپ نتایج اسکن ..."
+
+#: scans/tasks.py:719 scans/tasks.py:798 scans/tasks.py:874
+msgid "Files are being indexed..."
+msgstr "در حال مرتب‌سازی فایل‌ها ..."
+
+#: scans/tasks.py:731 scans/tasks.py:811 scans/tasks.py:885
+msgid "No clean file found"
+msgstr "فایل سالمی پیدا نشد."
+
+#: scans/tasks.py:776
+msgid "Finishing copy ..."
+msgstr "در حال اتمام کپی ..."
+
+#: users/models.py:37
+msgid "The username not given."
+msgstr "نام کاربری داده نشده است"
+
+#: users/models.py:84
+msgid "Superuser must have is_staff=True."
+msgstr ""
+
+#: users/models.py:87
+msgid "Superuser must have is_superuser=True."
+msgstr ""
+
+#: users/models.py:104
+msgid ""
+"Phone number must be entered in the format: '+999999999'. Up to 15 digits "
+"allowed."
+msgstr ""
+
+#: users/models.py:112
+msgid "Required. 32 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr ""
+
+#: users/models.py:116
+msgid "A user with that username already exists."
+msgstr "کاربری با این نام کاربری وجود دارد"
+
+#: users/models.py:127
+msgid ""
+"Designates that this user has all permissions without explicitly assigning "
+"them."
+msgstr ""
+
+#: users/models.py:132
+msgid "Designates whether the user can log into this admin site."
+msgstr ""
+
+#: users/models.py:137
+msgid "Designates whether this user should be treated as active."
+msgstr ""
+
+#: users/models.py:154
+msgid "User"
+msgstr "کاربر"
+
+#: users/models.py:155
+msgid "Users"
+msgstr "کاربران"
+
+#: users/serializers.py:113
+msgid "Insufficient privilege to set groups."
+msgstr "مجوز کافی برای تعیین گروه ندارید"
+
+#: users/serializers.py:142
+msgid "\"password\" is required for creating a user"
+msgstr "رمز عبور برای ایجاد کاربر اجباری است"
+
+#: users/serializers.py:247
+msgid "Invalid password"
+msgstr "رمز عبور اشتباه است"
+
+#: users/serializers.py:268
+msgid "New password and its repeat do not match."
+msgstr "رمز عبور جدید و تکرار آن یکسان نیستند"
+
+#~ msgid "Analyzing files..."
+#~ msgstr "در حال بررسی فایل‌ها ..."
+
+#~ msgid "Analyzing files finished"
+#~ msgstr "بررسی فایل‌ها به اتمام رسید"
+
+#~ msgid "Can view agent stats"
+#~ msgstr "می‌تواند آمار اسکنر‌ها را ببیند"

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scan Result</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        div {
+            text-align: right;
+        }
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+            border: 1px solid #f0f0f0;
+          width: 75%;
+          align-self: center;
+          margin: 2rem 0;
+            border-radius: 2px;
+            box-shadow: 0 0 4px 2px #eee;
+        }
+
+        td, th {
+            border-right: 1px solid #f0f0f0;
+          text-align: center;
+          padding: 8px;
+          font-size: 14px;
+            height: 1.6rem;
+        }
+        th {
+            background: #fafafa;
+        }
+        td {
+            background: #ffffff;
+            border-top: 1px solid #f0f0f0;
+        }
+        .name {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>نتیجه اسکن</h2>
+        <p>{{data.scanned}} : تعداد کل </p>
+        <p>{{data.infected}} : مخرب</p>
+        <p>{{data.clean}} : سالم</p>
+    </div>
+    <table>
+        <tr>
+            <th>نتیجه اسکن</th>
+            <th>زمان اسکن</th>
+            <th>تاریخ</th>
+            <th>نام فایل</th>
+            <th>نام اسکنر</th>
+        </tr>
+        {% for scan in scans %}
+            <tr>
+                <td>{% if scan.infected_num == 0 %}
+                        clean
+                    {% elif scan.infected_num > 0 %}
+                        infected
+                    {% else %}
+                        unknown
+                    {% endif %}
+                </td>
+                <td>{{scan.scan_time}}</td>
+                <td>{{scan.created_at}}</td>
+                <td>{{scan.file.display_name}}</td>
+                <td class="name">
+                    {{scan.av.display}}
+<!--                    <img-->
+<!--                            src="{{scan.av.logo}}"-->
+<!--                            alt="av-logo"-->
+<!--                            width="40px"-->
+<!--                            height="25px"-->
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

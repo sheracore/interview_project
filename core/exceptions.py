@@ -1,0 +1,2 @@
+class PrinterError(Exception):
+    pass

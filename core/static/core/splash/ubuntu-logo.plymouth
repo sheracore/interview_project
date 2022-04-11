@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Viruspod Logo
+Description=A theme that features a blank background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/local/viruspod-management-backend/core/static/core/splash
+ScriptFile=/usr/local/viruspod-management-backend/core/static/core/splash/ubuntu-logo.script
